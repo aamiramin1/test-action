@@ -14,6 +14,7 @@ permissions:
 jobs:
   pull-custom-docker-image-from-dockerhub:
     runs-on: ubuntu-latest
+    permissions: write-all
 
     steps:
       - name: Checkout repository
